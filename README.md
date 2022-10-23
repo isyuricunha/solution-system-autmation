@@ -18,7 +18,7 @@
 
 👤 **Yuri Cunha**
 
-* Website: https://isyuricunha.xyz/
+* Website: https://garotogordo.codes/
 * Twitter: [@isyuricunha](https://twitter.com/isyuricunha)
 * Github: [@isyuricunha](https://github.com/isyuricunha)
 * LinkedIn: [@isyuricunha](https://linkedin.com/in/isyuricunha)
