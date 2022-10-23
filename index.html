@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="imagex/png" href="img/logo.ico" />
+
+    <title>Solution System Automation</title>
+
+    <!-- carregar o css -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300"
+    />
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-all.min.css" />
+    <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <!-- http://kenwheeler.github.io/slick/ -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="css/tooplate-style.css" />
+    <!-- Templatemo style -->
+
+    <script>
+      document.documentElement.className = "js";
+      var supportsCssVars = function () {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports("font-weight", "var(--tmp-var)")
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          "Por favor, veja isso em um navegador moderno, como a versão mais recente do Chrome ou Microsoft Edge."
+        );
+    </script>
+  </head>
+
+  <body>
+    <div id="tm-bg"></div>
+    <div id="tm-wrap">
+      <div class="tm-main-content">
+        <div class="container tm-site-header-container">
+          <div class="row">
+            <div
+              class="col-sm-12 col-md-6 col-lg-6 col-md-col-xl-6 mb-md-0 mb-sm-4 mb-4 tm-site-header-col"
+            >
+              <div class="tm-site-header">
+                <h1 class="mb-4"><img src="img/logo.png" class="logo" /></h1>
+                <img src="img/underline.png" class="img-fluid mb-4" />
+                <p>COMPROMISSO, ÉTICA E AGILIDADE</p>
+                <a
+                  href="https://github.com/isyuricunha/ssautomation/raw/main/arquivos-para-download/ssa-apresentacao.pptx"
+                  class="button"
+                  ><i class="fa fa-download"></i> Carta de apresentação</a
+                ><br />
+                <a
+                  href="https://github.com/isyuricunha/ssautomation/raw/main/arquivos-para-download/ssa-portfolio.pdf"
+                  class="button"
+                  ><i class="fa fa-download"></i> Portfólio</a
+                >
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+              <div class="content">
+                <div class="grid">
+                  <div class="grid__item" id="home-link">
+                    <div class="product">
+                      <div class="tm-nav-link">
+                        <i class="fas fa-home fa-3x tm-nav-icon"></i>
+                        <span class="tm-nav-text">Sobre nós</span>
+                        <div class="product__bg"></div>
+                      </div>
+                      <div class="product__description">
+                        <div class="row mb-3">
+                          <div class="col-12">
+                            <h2 class="tm-page-title">Sobre nós</h2>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <img
+                              src="img/welcome-1.png"
+                              class="img-fluid mb-3"
+                            />
+                            <img
+                              src="img/underline.png"
+                              class="img-fluid mb-4"
+                            />
+                            <p>
+                              Acreditamos na parceria e trabalho duro como
+                              grande viabilizadora de entregas de alta
+                              qualidade, com um time que aprende continuamente e
+                              valoriza o atendimento de forma genuína ao
+                              cliente. Para nós, a agilidade e a ética são
+                              inegociáveis.
+                            </p>
+                          </div>
+                          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                            <p>
+                              A Solution Systems nasceu do sonho grande de
+                              construir novos caminhos, empreender com
+                              excelência, tendo as suas pessoas como seu
+                              principal diferencial de negócio.
+                            </p>
+                            <img src="img/welcome-2.png" class="img-fluid" />
+                            <img
+                              src="img/underline.png"
+                              class="img-fluid mb-4"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="grid__item" id="team-link">
+                    <div class="product">
+                      <div class="tm-nav-link">
+                        <i class="fas fa-users fa-3x tm-nav-icon"></i>
+                        <span class="tm-nav-text">Nossos parceiros</span>
+                        <div class="product__bg"></div>
+                      </div>
+                      <div class="product__description">
+                        <div class="p-sm-4 p-2">
+                          <div class="row mb-3">
+                            <div>
+                              <h2 class="tm-page-title">Nossos parceiros</h2>
+                            </div>
+                          </div>
+                          <div class="row tm-reverse-sm">
+                            <div>
+                              <h8 class="mb-1"
+                                >Diante do cenário de Covid-19, estamos tomando
+                                todas precauções necessárias, para prevenção dos
+                                colaboradores da empresa, assim temos como
+                                rotina: Aferição de temperatura e teste PCR.</h8
+                              >
+                              <!-- <p class="mb-4">Sed ex turpis, vulputate in efficitur id, lobortis eget nibh. Pellentesque maximus ipsum eget velit imperdiet sodales. Suspendisse in blandit mi.</p>
+                                                        <p class="mb-5">Pellentesque finibus felis risus, ut malesuada felis viverra at. Quisque accumsan in mi non hendrerit.</p> -->
+                              <!-- <a href="#" class="btn tm-btn-gray">Read More</a> -->
+                            </div>
+                            <!-- <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-lg-0 mb-sm-4 mb-4">
+                                                        <img src="img/team.jpg" class="img-fluid">
+                                                    </div> -->
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="p-sm-4 p-2 tm-img-container">
+                                <div class="tm-img-slider" id="tmImgSlider">
+                                  <img
+                                    src="img/seal-telecom.jpg"
+                                    alt="Image"
+                                    class="image-row"
+                                  />
+                                  <img
+                                    src="img/e-vertical.jfif"
+                                    alt="Image"
+                                    class="image-row"
+                                  />
+                                  <img
+                                    src="img/bms.png"
+                                    alt="Image"
+                                    class="image-row"
+                                  />
+                                  <img
+                                    src="img/johnsoncontrols.jpg"
+                                    alt="Image"
+                                    class="image-row"
+                                  />
+                                  <img
+                                    src="img/teltex.jfif"
+                                    alt="Image"
+                                    class="image-row"
+                                  />
+                                  <img
+                                    src="img/intec.jfif"
+                                    alt="Image"
+                                    class="image-row"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="grid__item">
+                    <div class="product">
+                      <div class="tm-nav-link">
+                        <i class="fas fa-database fa-3x tm-nav-icon"></i>
+                        <span class="tm-nav-text">Nossos serviços</span>
+                        <div class="product__bg"></div>
+                      </div>
+                      <div class="product__description">
+                        <div class="p-sm-4 p-2">
+                          <div class="row mb-3">
+                            <div class="col-12">
+                              <h2 class="tm-page-title">
+                                Atuamos desde a infraestrutura até o
+                                comissionamento.
+                              </h2>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                              <img
+                                style="vertical-align:middle"
+                                src="img/ca.png"
+                                class="img-fluid mb-3"
+                              />
+                              <img
+                                src="img/underline.png"
+                                class="img-fluid mb-4"
+                              />
+                              <h4>Infraestrutura Seca</h4>
+                              <p>
+                                Instalação de eletrocalhas, eletrodutos,
+                                perfilados, etc.
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                              <h4>Cabeamento Estruturado</h4>
+                              <p>
+                                Projetos para escritórios com foco na
+                                necessidade do cliente e confiabilidade do
+                                sistema.
+                              </p>
+                              <img
+                                style="vertical-align:middle"
+                                src="img/Infraestrutura Seca .png"
+                                class="img-fluid"
+                              />
+                              <img
+                                src="img/underline.png"
+                                class="img-fluid mb-4"
+                              />
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                              <img
+                                style="vertical-align:middle"
+                                src="img/Instalação e comissionamento de Sistemas .png"
+                                class="img-fluid mb-3"
+                              />
+                              <img
+                                src="img/underline.png"
+                                class="img-fluid mb-4"
+                              />
+                              <h4>
+                                Instalação e comissionamento de Sistemas BMS
+                              </h4>
+                              <p>
+                                Tem como finalidade detectar o princípio de
+                                incêndio, de modo que seja combatido de forma
+                                imediata, afim de preservar a vida, o patrimônio
+                                e o meio ambiente.
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                              <h4>
+                                Instalação e comissionamento do Sistema de
+                                Detecção e Alarme de incêndio (SDAI)
+                              </h4>
+                              <p>
+                                Automação e monitoramento para todos os sistemas
+                                mecânicos e elétricos do edifício.
+                              </p>
+                              <img
+                                style="vertical-align:middle"
+                                src="img/Instalação e comissionamento do Sistema .png"
+                                class="img-fluid"
+                              />
+                              <img
+                                src="img/underline.png"
+                                class="img-fluid mb-4"
+                              />
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                              <img
+                                style="vertical-align:middle"
+                                src="img/Controle de Acesso.png"
+                                class="img-fluid mb-3"
+                              />
+                              <img
+                                src="img/underline.png"
+                                class="img-fluid mb-4"
+                              />
+                              <h4>Controle de Acesso (SCA)</h4>
+                              <p>
+                                Instalação de equipamentos utilizando sistemas
+                                wi-fi, trabalhamos com produtos nacionais e
+                                importados. Efetuamos também manutenção em
+                                equipamentos já instalados.
+                              </p>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                              <h4>
+                                Instalação e configuração do Sistema de CFTV
+                              </h4>
+                              <p>
+                                Catracas, Portas, Biometria, RFID etc. Projeto
+                                elaborado conforme necessidade do cliente
+                                garantindo excelência na execução e manutenção
+                                periódica
+                              </p>
+                              <img
+                                style="vertical-align:middle"
+                                src="img/Instalação e configuração do sistema cftv.png"
+                                class="img-fluid"
+                              />
+                            </div>
+                          </div>
+                          <!---- <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="p-sm-4 p-2 tm-img-container">
+                                                            <div class="tm-img-slider" id="tmImgSlider">
+                                                                <img src="img/gallery-img-01-tn.jpg" alt="Image"
+                                                                    class="tm-slider-img">
+                                                                <img src="img/gallery-img-02-tn.jpg" alt="Image"
+                                                                    class="tm-slider-img">
+                                                                <img src="img/gallery-img-03-tn.jpg" alt="Image"
+                                                                    class="tm-slider-img">
+                                                                <img src="img/gallery-img-04-tn.jpg" alt="Image"
+                                                                    class="tm-slider-img">
+                                                                <img src="img/gallery-img-05-tn.jpg" alt="Image"
+                                                                    class="tm-slider-img">
+                                                                <img src="img/gallery-img-06-tn.jpg" alt="Image"
+                                                                    class="tm-slider-img">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="grid__item">
+                    <div class="product">
+                      <div class="tm-nav-link">
+                        <i class="fas fa-envelope-open fa-3x tm-nav-icon"></i>
+                        <span class="tm-nav-text">Contato</span>
+                        <div class="product__bg"></div>
+                      </div>
+                      <div class="product__description">
+                        <div
+                          class="pt-sm-4 pb-sm-4 pl-sm-5 pr-sm-5 pt-2 pb-2 pl-3 pr-3"
+                        >
+                          <div class="row mb-3">
+                            <div class="col-12">
+                              <h2 class="tm-page-title">Fale conosco</h2>
+                            </div>
+                          </div>
+                          <div class="row mb-4">
+                            <div class="col-12">
+                              <p>
+                                Quais desafios e projetos podemos trabalhar
+                                juntos?<br /><br />
+                              </p>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <div class="widget widget_contact">
+                                <h4>E-mail e telefone</h4>
+                                <p
+                                  class="address"
+                                  href="matheus.freitas@ssautomation.com.br"
+                                >
+                                  matheus.freitas@ssautomation.com.br<br />
+                                  <span>+55 (11) 98962-4975</span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer>
+          <p class="small tm-copyright-text">
+            Copyright &copy; <span class="tm-current-year">2018</span> Solution
+            System Automation.
+          </p>
+        </footer>
+      </div>
+      <!-- .tm-main-content -->
+    </div>
+    <!-- load JS -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <!-- https://jquery.com/ -->
+    <script src="slick/slick.min.js"></script>
+    <!-- http://kenwheeler.github.io/slick/ -->
+    <script src="js/anime.min.js"></script>
+    <!-- http://animejs.com/ -->
+    <script src="js/main.js"></script>
+    <script>
+      function setupFooter() {
+        var pageHeight =
+          $(".tm-site-header-container").height() + $("footer").height() + 100;
+
+        var main = $(".tm-main-content");
+
+        if ($(window).height() < pageHeight) {
+          main.addClass("tm-footer-relative");
+        } else {
+          main.removeClass("tm-footer-relative");
+        }
+      }
+
+      /* DOM esta pronto
+        ------------------------------------------------*/
+      $(function () {
+        setupFooter();
+
+        $(window).resize(function () {
+          setupFooter();
+        });
+
+        $(".tm-current-year").text(new Date().getFullYear()); // atualiza o ano atual
+      });
+    </script>
+  </body>
+</html>
