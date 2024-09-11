@@ -10,9 +10,9 @@
 
 > Website created for SSAutomation, by Yuri Cunha
 
-### 🏠 [Homepage](https://www.ssautomation.com.br/)
+### 🏠 [Homepage](www.ssautomation.yuricunha.com/)
 
-### ✨ [Demo](https://www.ssautomation.com.br/)
+### ✨ [Demo](www.ssautomation.yuricunha.com/)
 
 ## Author
 
